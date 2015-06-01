@@ -7,6 +7,7 @@
 ### Your assignment is to write a pair of functions that cache the inverse of a matrix.
 
 
+
 # This function creates a special "matrix" object that can cache its inverse.
 # makeCacheMatrix creates a list containing a function to
 # 1. set the value of the matrix
@@ -41,7 +42,6 @@ makeCacheMatrix <- function(x = matrix()) {
 # res$get()
 # res$getinverse()
 # 
-# 
 # mat2 <- matrix(6:9, 2, 2)
 # mat2
 # mat2inv <- solve(mat)
@@ -69,8 +69,6 @@ cacheSolve <- function(x, ...) {
         inv
 }
 
-
-
 # Sample run:
 # x <- rbind(c(1, -1/4), c(-1/4, 1))
 # x
@@ -82,7 +80,6 @@ cacheSolve <- function(x, ...) {
 # 
 # Retrieving from the cache in the second run
 # cacheSolve(m)
-
 
 
 
@@ -133,8 +130,7 @@ cacheSolve <- function(x, ...) {
 #   x$setmean(m)
 #   m
 # }
-
-
+#
 # x <- c(2,4,6,8)
 # x
 # m = makeVector(x)
