@@ -130,14 +130,14 @@ cacheSolve <- function(x, ...) {
 #   x$setmean(m)
 #   m
 # }
-#
+
 # x <- c(2,4,6,8)
 # x
 # m = makeVector(x)
 # m$get()
 # m$getmean()
 # m$setmean(5)
-# 
+#
 # cachemean(m)
 
 
